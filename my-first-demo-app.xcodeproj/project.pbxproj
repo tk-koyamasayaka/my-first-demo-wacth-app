@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF3C1C352DE210A300F8E7B4 /* my-first-demo-app Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DF3C1C342DE210A300F8E7B4 /* my-first-demo-app Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF3C1C362DE210A300F8E7B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF3C1C282DE210A300F8E7B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF3C1C332DE210A300F8E7B4;
+			remoteInfo = "my-first-demo-app Watch App";
+		};
+		DF3C1C442DE210A600F8E7B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF3C1C282DE210A300F8E7B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF3C1C332DE210A300F8E7B4;
+			remoteInfo = "my-first-demo-app Watch App";
+		};
+		DF3C1C4E2DE210A600F8E7B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF3C1C282DE210A300F8E7B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF3C1C332DE210A300F8E7B4;
+			remoteInfo = "my-first-demo-app Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF3C1C5A2DE210A600F8E7B4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DF3C1C352DE210A300F8E7B4 /* my-first-demo-app Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DF3C1C2E2DE210A300F8E7B4 /* my-first-demo-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-first-demo-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3C1C342DE210A300F8E7B4 /* my-first-demo-app Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-first-demo-app Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3C1C432DE210A600F8E7B4 /* my-first-demo-app Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "my-first-demo-app Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3C1C4D2DE210A600F8E7B4 /* my-first-demo-app Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "my-first-demo-app Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DF3C1C382DE210A300F8E7B4 /* my-first-demo-app Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "my-first-demo-app Watch App";
+			sourceTree = "<group>";
+		};
+		DF3C1C462DE210A600F8E7B4 /* my-first-demo-app Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "my-first-demo-app Watch AppTests";
+			sourceTree = "<group>";
+		};
+		DF3C1C502DE210A600F8E7B4 /* my-first-demo-app Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "my-first-demo-app Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF3C1C312DE210A300F8E7B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3C1C402DE210A600F8E7B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3C1C4A2DE210A600F8E7B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF3C1C272DE210A300F8E7B4 = {
+			isa = PBXGroup;
+			children = (
+				DF3C1C382DE210A300F8E7B4 /* my-first-demo-app Watch App */,
+				DF3C1C462DE210A600F8E7B4 /* my-first-demo-app Watch AppTests */,
+				DF3C1C502DE210A600F8E7B4 /* my-first-demo-app Watch AppUITests */,
+				DF3C1C2F2DE210A300F8E7B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF3C1C2F2DE210A300F8E7B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF3C1C2E2DE210A300F8E7B4 /* my-first-demo-app.app */,
+				DF3C1C342DE210A300F8E7B4 /* my-first-demo-app Watch App.app */,
+				DF3C1C432DE210A600F8E7B4 /* my-first-demo-app Watch AppTests.xctest */,
+				DF3C1C4D2DE210A600F8E7B4 /* my-first-demo-app Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF3C1C2D2DE210A300F8E7B4 /* my-first-demo-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3C1C5B2DE210A600F8E7B4 /* Build configuration list for PBXNativeTarget "my-first-demo-app" */;
+			buildPhases = (
+				DF3C1C2C2DE210A300F8E7B4 /* Resources */,
+				DF3C1C5A2DE210A600F8E7B4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF3C1C372DE210A300F8E7B4 /* PBXTargetDependency */,
+			);
+			name = "my-first-demo-app";
+			packageProductDependencies = (
+			);
+			productName = "my-first-demo-app";
+			productReference = DF3C1C2E2DE210A300F8E7B4 /* my-first-demo-app.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		DF3C1C332DE210A300F8E7B4 /* my-first-demo-app Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3C1C572DE210A600F8E7B4 /* Build configuration list for PBXNativeTarget "my-first-demo-app Watch App" */;
+			buildPhases = (
+				DF3C1C302DE210A300F8E7B4 /* Sources */,
+				DF3C1C312DE210A300F8E7B4 /* Frameworks */,
+				DF3C1C322DE210A300F8E7B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DF3C1C382DE210A300F8E7B4 /* my-first-demo-app Watch App */,
+			);
+			name = "my-first-demo-app Watch App";
+			packageProductDependencies = (
+			);
+			productName = "my-first-demo-app Watch App";
+			productReference = DF3C1C342DE210A300F8E7B4 /* my-first-demo-app Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF3C1C422DE210A600F8E7B4 /* my-first-demo-app Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3C1C5E2DE210A600F8E7B4 /* Build configuration list for PBXNativeTarget "my-first-demo-app Watch AppTests" */;
+			buildPhases = (
+				DF3C1C3F2DE210A600F8E7B4 /* Sources */,
+				DF3C1C402DE210A600F8E7B4 /* Frameworks */,
+				DF3C1C412DE210A600F8E7B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF3C1C452DE210A600F8E7B4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DF3C1C462DE210A600F8E7B4 /* my-first-demo-app Watch AppTests */,
+			);
+			name = "my-first-demo-app Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "my-first-demo-app Watch AppTests";
+			productReference = DF3C1C432DE210A600F8E7B4 /* my-first-demo-app Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF3C1C4C2DE210A600F8E7B4 /* my-first-demo-app Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3C1C612DE210A600F8E7B4 /* Build configuration list for PBXNativeTarget "my-first-demo-app Watch AppUITests" */;
+			buildPhases = (
+				DF3C1C492DE210A600F8E7B4 /* Sources */,
+				DF3C1C4A2DE210A600F8E7B4 /* Frameworks */,
+				DF3C1C4B2DE210A600F8E7B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF3C1C4F2DE210A600F8E7B4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DF3C1C502DE210A600F8E7B4 /* my-first-demo-app Watch AppUITests */,
+			);
+			name = "my-first-demo-app Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "my-first-demo-app Watch AppUITests";
+			productReference = DF3C1C4D2DE210A600F8E7B4 /* my-first-demo-app Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF3C1C282DE210A300F8E7B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					DF3C1C2D2DE210A300F8E7B4 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					DF3C1C332DE210A300F8E7B4 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					DF3C1C422DE210A600F8E7B4 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = DF3C1C332DE210A300F8E7B4;
+					};
+					DF3C1C4C2DE210A600F8E7B4 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = DF3C1C332DE210A300F8E7B4;
+					};
+				};
+			};
+			buildConfigurationList = DF3C1C2B2DE210A300F8E7B4 /* Build configuration list for PBXProject "my-first-demo-app" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF3C1C272DE210A300F8E7B4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DF3C1C2F2DE210A300F8E7B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF3C1C2D2DE210A300F8E7B4 /* my-first-demo-app */,
+				DF3C1C332DE210A300F8E7B4 /* my-first-demo-app Watch App */,
+				DF3C1C422DE210A600F8E7B4 /* my-first-demo-app Watch AppTests */,
+				DF3C1C4C2DE210A600F8E7B4 /* my-first-demo-app Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF3C1C2C2DE210A300F8E7B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3C1C322DE210A300F8E7B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3C1C412DE210A600F8E7B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3C1C4B2DE210A600F8E7B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF3C1C302DE210A300F8E7B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3C1C3F2DE210A600F8E7B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3C1C492DE210A600F8E7B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF3C1C372DE210A300F8E7B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF3C1C332DE210A300F8E7B4 /* my-first-demo-app Watch App */;
+			targetProxy = DF3C1C362DE210A300F8E7B4 /* PBXContainerItemProxy */;
+		};
+		DF3C1C452DE210A600F8E7B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF3C1C332DE210A300F8E7B4 /* my-first-demo-app Watch App */;
+			targetProxy = DF3C1C442DE210A600F8E7B4 /* PBXContainerItemProxy */;
+		};
+		DF3C1C4F2DE210A600F8E7B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF3C1C332DE210A300F8E7B4 /* my-first-demo-app Watch App */;
+			targetProxy = DF3C1C4E2DE210A600F8E7B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DF3C1C552DE210A600F8E7B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF3C1C562DE210A600F8E7B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DF3C1C582DE210A600F8E7B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "my-first-demo-app";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bird-and-dog-owner.my-first-demo-app.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		DF3C1C592DE210A600F8E7B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "my-first-demo-app";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bird-and-dog-owner.my-first-demo-app.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		DF3C1C5C2DE210A600F8E7B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "my-first-demo-app";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bird-and-dog-owner.my-first-demo-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DF3C1C5D2DE210A600F8E7B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "my-first-demo-app";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bird-and-dog-owner.my-first-demo-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF3C1C5F2DE210A600F8E7B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bird-and-dog-owner.my-first-demo-app-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/my-first-demo-app Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/my-first-demo-app Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		DF3C1C602DE210A600F8E7B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bird-and-dog-owner.my-first-demo-app-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/my-first-demo-app Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/my-first-demo-app Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		DF3C1C622DE210A600F8E7B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bird-and-dog-owner.my-first-demo-app-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "my-first-demo-app Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		DF3C1C632DE210A600F8E7B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bird-and-dog-owner.my-first-demo-app-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "my-first-demo-app Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF3C1C2B2DE210A300F8E7B4 /* Build configuration list for PBXProject "my-first-demo-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3C1C552DE210A600F8E7B4 /* Debug */,
+				DF3C1C562DE210A600F8E7B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3C1C572DE210A600F8E7B4 /* Build configuration list for PBXNativeTarget "my-first-demo-app Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3C1C582DE210A600F8E7B4 /* Debug */,
+				DF3C1C592DE210A600F8E7B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3C1C5B2DE210A600F8E7B4 /* Build configuration list for PBXNativeTarget "my-first-demo-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3C1C5C2DE210A600F8E7B4 /* Debug */,
+				DF3C1C5D2DE210A600F8E7B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3C1C5E2DE210A600F8E7B4 /* Build configuration list for PBXNativeTarget "my-first-demo-app Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3C1C5F2DE210A600F8E7B4 /* Debug */,
+				DF3C1C602DE210A600F8E7B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3C1C612DE210A600F8E7B4 /* Build configuration list for PBXNativeTarget "my-first-demo-app Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3C1C622DE210A600F8E7B4 /* Debug */,
+				DF3C1C632DE210A600F8E7B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF3C1C282DE210A300F8E7B4 /* Project object */;
+}
