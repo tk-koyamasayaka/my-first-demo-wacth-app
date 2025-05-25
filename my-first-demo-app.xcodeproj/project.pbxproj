@@ -53,6 +53,7 @@
 		DF3C1C342DE210A300F8E7B4 /* my-first-demo-app Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-first-demo-app Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF3C1C432DE210A600F8E7B4 /* my-first-demo-app Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "my-first-demo-app Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF3C1C4D2DE210A600F8E7B4 /* my-first-demo-app Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "my-first-demo-app Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDC00132DE35804009FA37C /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.4.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -104,6 +105,7 @@
 				DF3C1C382DE210A300F8E7B4 /* my-first-demo-app Watch App */,
 				DF3C1C462DE210A600F8E7B4 /* my-first-demo-app Watch AppTests */,
 				DF3C1C502DE210A600F8E7B4 /* my-first-demo-app Watch AppUITests */,
+				DFDC00122DE35804009FA37C /* Frameworks */,
 				DF3C1C2F2DE210A300F8E7B4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,6 +119,14 @@
 				DF3C1C4D2DE210A600F8E7B4 /* my-first-demo-app Watch AppUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DFDC00122DE35804009FA37C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFDC00132DE35804009FA37C /* HealthKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -455,7 +465,10 @@
 				DEVELOPMENT_TEAM = 74C97AFYWJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "my-first-demo-app-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "my-first-demo-app";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "心拍数データの共有に使用します";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "心拍数データの取得に使用します";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -484,7 +497,10 @@
 				DEVELOPMENT_TEAM = 74C97AFYWJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "my-first-demo-app-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "my-first-demo-app";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "心拍数データの共有に使用します";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "心拍数データの取得に使用します";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
